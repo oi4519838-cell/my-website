@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>خيرات الشمال</title>
+<style>
+:root{--bg:#f4f6f8;--card:#fff;--tx:#1b1f24;--mu:#6b7280;--bd:#e0e4e8;--pr:#0f766e;--dn:#b91c1c;--rb:#fee2e2;--rt:#991b1b;--yb:#fef3c7;--yt:#92400e;--gb:#d1fae5;--gt:#065f46;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#14171a;--card:#1d2125;--tx:#e8eaed;--mu:#9aa3ad;--bd:#2d333a;--pr:#14998c;--dn:#f87171;--rb:#450a0a;--rt:#fca5a5;--yb:#422006;--yt:#fcd34d;--gb:#064e3b;--gt:#6ee7b7}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#14171a;--card:#1d2125;--tx:#e8eaed;--mu:#9aa3ad;--bd:#2d333a;--pr:#14998c;--dn:#f87171;--rb:#450a0a;--rt:#fca5a5;--yb:#422006;--yt:#fcd34d;--gb:#064e3b;--gt:#6ee7b7}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.6 Tahoma,"Segoe UI",system-ui,sans-serif}
+.lay{display:flex;min-height:100vh}
+html[dir=ltr] .lay{flex-direction:row-reverse}
+aside{width:230px;flex:none;background:#0b3b38;color:#e6f4f2;display:flex;flex-direction:column;padding:16px 10px;position:sticky;top:0;height:100vh;overflow-y:auto}
+.logo{display:flex;align-items:center;gap:10px;padding:4px 8px 16px;border-bottom:1px solid #ffffff22;margin-bottom:12px}
+.logo i{font-style:normal;font-size:24px;background:#ffffff1a;border-radius:10px;width:42px;height:42px;display:grid;place-items:center;flex:none}
+.logo b{font-size:17px;line-height:1.3;display:block}
+.logo small{opacity:.7;font-size:11px}
+aside nav button{display:flex;align-items:center;gap:10px;width:100%;text-align:start;background:transparent;border:0;color:#cfe6e3;padding:10px 12px;margin-bottom:4px;border-radius:10px;white-space:nowrap}
+aside nav button:hover{background:#ffffff14}
+aside nav button.on{background:#14998c;color:#fff;font-weight:600}
+.usr{margin-top:auto;padding:12px 8px 0;border-top:1px solid #ffffff22;font-size:13px}
+.usr button{width:100%;margin-top:8px;background:transparent;color:#fff;border-color:#fff4}
+.mn{flex:1;min-width:0}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;background:var(--card);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:5}
+.top h2{margin:0;font-size:19px}
+main{padding:20px 22px;max-width:1100px;margin:auto}
+@media(max-width:720px){aside{width:62px;padding:10px 6px}.lbl,.logo div,.usr span{display:none}.logo{justify-content:center;padding:4px 0 12px}aside nav button{justify-content:center;padding:10px 4px;font-size:18px}.top{padding:12px 14px}main{padding:12px}.usr button{padding:6px 2px;font-size:12px}}
+h3{margin:0 0 10px;font-size:16px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin-bottom:14px;box-shadow:0 1px 3px #0000000d}
+button{font:inherit;padding:6px 12px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);cursor:pointer}
+button.p{background:var(--pr);color:#fff;border-color:var(--pr)}
+button.d{color:var(--dn)}
+input,select{font:inherit;padding:6px 8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx);max-width:100%}
+label{display:flex;flex-direction:column;font-size:12px;color:var(--mu);gap:2px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;margin-bottom:8px}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th,td{padding:6px 8px;border-bottom:1px solid var(--bd);text-align:start;white-space:nowrap}
+th{color:var(--mu);font-size:12px;font-weight:600}
+.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-bottom:12px}
+.k div{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px}
+.k b{display:block;font-size:20px}
+.k span{color:var(--mu);font-size:12px}
+.b{display:inline-block;padding:1px 9px;border-radius:99px;font-size:12px}
+.r{background:var(--rb);color:var(--rt)}.y{background:var(--yb);color:var(--yt)}.g{background:var(--gb);color:var(--gt)}
+.bar{height:8px;background:var(--pr);border-radius:4px;min-width:2px}
+.al{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:center;padding:10px 0;border-bottom:1px solid var(--bd)}
+.mu{color:var(--mu);font-size:13px}
+a.btn{display:inline-block;text-decoration:none;font-size:14px;padding:6px 12px;border:1px solid var(--bd);border-radius:8px;color:var(--tx)}
+#t{position:fixed;bottom:calc(16px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:#111;color:#fff;padding:8px 16px;border-radius:8px;display:none;z-index:9}
+.box{max-width:360px;margin:60px auto}
+</style>
+</head>
+<body>
+<div id="app"></div><div id="t"></div>
+<script>
+const K='erp_v1';let S,me=null,view='alerts',cart=[],rp='month',V={};
+const $=s=>document.querySelector(s),M=()=>$('#m');
+const P={sell:'البيع',inv:'المخزن',cust:'العملاء',rep:'التقارير'};
+function load(){try{S=JSON.parse(localStorage.getItem(K))}catch(e){S=null}
+ if(!S)S={users:[],products:[],customers:[],sales:[],settings:{lead:3},seq:1}}
+function save(){try{localStorage.setItem(K,JSON.stringify(S))}catch(e){toast('تعذر الحفظ على المتصفح')}}
+const nid=()=>S.seq++;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pad=n=>String(n).padStart(2,'0');
+const today=()=>{const d=new Date();return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())};
+const addDays=(s,n)=>{const d=new Date(s+'T12:00:00');d.setDate(d.getDate()+n);return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())};
+const diff=(a,b)=>Math.round((new Date(a+'T12:00:00')-new Date(b+'T12:00:00'))/864e5);
+const money=n=>Math.round(n*100)/100;
+const fm=n=>money(n).toLocaleString('en-US');
+const nph=p=>String(p||'').replace(/\D/g,'');
+const wa=p=>{p=nph(p);return p.startsWith('0')?'20'+p.slice(1):p};
+function toast(m){const e=$('#t');e.textContent=m;e.style.display='block';clearTimeout(toast.x);toast.x=setTimeout(()=>e.style.display='none',2600)}
+async function H(p){try{const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('erp:'+p));return[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}catch(e){return btoa(unescape(encodeURIComponent('erp:'+p)))}}
+const can=k=>me.role==='admin'||(me.perms&&me.perms[k]);
+
+/* ---- customer follow-up logic ---- */
+function custInfo(c){
+ const ss=S.sales.filter(s=>s.cid==c.id).sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:a.id-b.id);
+ let end=null,last=null,total=0;
+ for(const s of ss){last=s.date;total+=s.total;
+  const dur=Math.max(...s.items.map(i=>i.qty*(i.days||20)));
+  const st=end&&end>s.date?end:s.date;end=addDays(st,dur)}
+ return{last,end,total,n:ss.length}}
+
+/* ---- auth ---- */
+function boot(){load();
+ if(!S.users.length)return setup();
+ try{const u=sessionStorage.getItem('erp_me');if(u)me=S.users.find(x=>x.u===u)}catch(e){}
+ me?shell():login()}
+function setup(){$('#app').innerHTML=`<div class="c box"><h3>🌿 خيرات الشمال — إعداد حساب الأدمن</h3><div class="row"><label>اسم المستخدم<input id="u"></label><label>كلمة المرور<input id="p" type="password"></label></div><button class="p" onclick="doSetup()">إنشاء الأدمن</button> <button onclick="setLang()">${L=='en'?'العربية':'English'}</button></div>`}
+async function doSetup(){const u=$('#u').value.trim(),p=$('#p').value;if(!u||p.length<4)return toast('اكتب اسم وكلمة مرور (4 أحرف على الأقل)');
+ S.users.push({u,h:await H(p),role:'admin',perms:{}});save();me=S.users[0];sess();shell()}
+function login(){$('#app').innerHTML=`<div class="c box"><h3>🌿 خيرات الشمال — تسجيل الدخول</h3><div class="row"><label>اسم المستخدم<input id="u"></label><label>كلمة المرور<input id="p" type="password"></label></div><button class="p" onclick="doLogin()">دخول</button> <button onclick="setLang()">${L=='en'?'العربية':'English'}</button></div>`}
+async function doLogin(){const u=S.users.find(x=>x.u===$('#u').value.trim());
+ if(!u||u.h!==await H($('#p').value))return toast('بيانات غير صحيحة');me=u;sess();shell()}
+function sess(){try{sessionStorage.setItem('erp_me',me.u)}catch(e){}}
+function logout(){me=null;try{sessionStorage.removeItem('erp_me')}catch(e){}login()}
+
+/* ---- shell ---- */
+function go(v){view=v;shell()}
+function shell(){
+ const tabs=[['alerts','🔔 التنبيهات','cust'],['sell','🛒 بيع','sell'],['inv','📦 المخزن','inv'],['cust','👥 العملاء','cust'],['rep','📊 التقارير','rep'],['users','⚙️ المستخدمين','admin']].filter(t=>t[2]=='admin'?me.role=='admin':can(t[2]));
+ if(!tabs.length){$('#app').innerHTML='<div class="c box">لا توجد صلاحيات لهذا الحساب. كلم الأدمن.<br><button onclick="logout()">خروج</button></div>';return}
+ if(!tabs.find(t=>t[0]==view))view=tabs[0][0];
+ const cur=tabs.find(t=>t[0]==view)[1].split(' ');
+ $('#app').innerHTML=`<div class="lay"><aside><div class="logo"><i>🌿</i><div><b>خيرات الشمال</b><small>إدارة المخزن والمبيعات</small></div></div><nav>${tabs.map(t=>{const p=t[1].split(' ');return`<button class="${t[0]==view?'on':''}" onclick="go('${t[0]}')"><span>${p[0]}</span><span class="lbl">${p.slice(1).join(' ')}</span></button>`}).join('')}</nav><div class="usr"><span>${esc(me.u)} · ${me.role=='admin'?'أدمن':'مستخدم'}</span><button onclick="setLang()">${L=='en'?'العربية':'English'}</button><button onclick="logout()">خروج</button></div></aside><div class="mn"><div class="top"><h2>${cur.slice(1).join(' ')}</h2><span class="mu">${today()}</span></div><main id="m"></main></div></div>`;
+ V[view]()}
+
+/* ---- alerts ---- */
+V.alerts=()=>{
+ const t=today(),L=+S.settings.lead||0;
+ const due=S.customers.map(c=>({c,i:custInfo(c)})).filter(x=>{if(!x.i.end)return false;const d=addDays(x.i.end,-L);return t>=d&&!(x.c.called&&x.c.called>=d)}).sort((a,b)=>a.i.end<b.i.end?-1:1);
+ const low=S.products.filter(p=>p.stock<=p.min);
+ M().innerHTML=`<div class="c"><h3>عملاء لازم تكلمهم (${due.length})</h3>
+ <div class="row"><label>نبهني قبل خلاص الكمية بـ (أيام)<input type="number" min="0" value="${L}" style="width:90px" onchange="S.settings.lead=+this.value;save();V.alerts()"></label></div>
+ ${due.map(({c,i})=>{const r=diff(i.end,t);const b=r<0?`<span class="b r">خلصت من ${-r} يوم</span>`:r==0?'<span class="b r">بتخلص النهاردة</span>':`<span class="b y">باقي ${r} يوم</span>`;
+ return`<div class="al"><div><b>${esc(c.name)}</b> ${b}<div class="mu">${esc(c.phone)} · آخر شراء: ${i.last} · تخلص تقريباً: ${i.end}</div></div><div class="row" style="margin:0"><a class="btn" href="https://wa.me/${wa(c.phone)}" target="_blank" rel="noopener">واتساب</a><a class="btn" href="tel:${esc(c.phone)}">اتصال</a><button class="p" onclick="called(${c.id})">تم الاتصال</button></div></div>`}).join('')||'<p class="mu">مفيش حد محتاج اتصال دلوقتي 👌</p>'}</div>
+ ${low.length?`<div class="c"><h3>أصناف قاربت تخلص من المخزن</h3>${low.map(p=>`<div class="al"><span>${esc(p.name)}</span><span class="b ${p.stock<=0?'r':'y'}">المتبقي ${p.stock}</span></div>`).join('')}</div>`:''}`}
+function called(id){const c=S.customers.find(x=>x.id==id);c.called=today();save();V.alerts()}
+
+/* ---- sell ---- */
+V.sell=()=>{
+ M().innerHTML=`<div class="c"><h3>فاتورة بيع</h3>
+ <div class="row"><label>موبايل العميل<input id="ph" list="pl" inputmode="tel" oninput="fill()"></label><datalist id="pl">${S.customers.map(c=>`<option value="${esc(c.phone)}">${esc(c.name)}</option>`).join('')}</datalist>
+ <label>اسم العميل<input id="nm"></label><label>العنوان (اختياري)<input id="ad"></label></div>
+ <div class="mu" id="ci" style="margin-bottom:8px"></div>
+ <div class="row"><label>المنتج<select id="pr" onchange="pf()">${S.products.map(p=>`<option value="${p.id}">${esc(p.name)} (متاح ${p.stock})</option>`).join('')}</select></label>
+ <label>الكمية<input id="q" type="number" min="1" value="1" style="width:70px"></label><label>السعر<input id="pz" type="number" style="width:90px"></label><button onclick="addI()">إضافة للفاتورة</button></div>
+ <div id="cart"></div>
+ <div class="row"><label>طريقة الدفع<select id="me"><option>نقدي</option><option>فودافون كاش</option><option>إنستاباي</option><option>آجل</option></select></label>
+ <label>قناة البيع<select id="ch"><option>المحل</option><option>واتساب</option><option>توصيل</option><option>أونلاين</option><option>مندوب</option></select></label>
+ <label>التاريخ<input id="dt" type="date" value="${today()}"></label></div>
+ <button class="p" onclick="doSale()">حفظ الفاتورة</button></div>`;
+ if(!S.products.length)$('#cart').innerHTML='<p class="mu">ضيف أصناف في المخزن الأول.</p>';else{pf();rc()}}
+function fill(){const c=S.customers.find(x=>nph(x.phone)==nph($('#ph').value)&&nph($('#ph').value));
+ if(c){$('#nm').value=c.name;$('#ad').value=c.addr||'';const i=custInfo(c);$('#ci').textContent=`عميل مسجل · آخر شراء: ${i.last||'-'} · عدد الفواتير: ${i.n}`}else $('#ci').textContent=nph($('#ph').value).length>=6?'عميل جديد — هيتضاف تلقائي':''}
+function pf(){const p=S.products.find(x=>x.id==$('#pr').value);if(p)$('#pz').value=p.price}
+function addI(){const p=S.products.find(x=>x.id==$('#pr').value),q=+$('#q').value,pz=+$('#pz').value;if(!p||q<1)return;
+ const ex=cart.find(i=>i.pid==p.id&&i.price==pz);ex?ex.qty+=q:cart.push({pid:p.id,name:p.name,qty:q,price:pz,cost:p.cost,days:p.days});rc()}
+function rc(){const e=$('#cart');if(!e)return;const t=cart.reduce((s,i)=>s+i.qty*i.price,0);
+ e.innerHTML=cart.length?`<div class="tw"><table><tr><th>الصنف</th><th>كمية</th><th>سعر</th><th>إجمالي</th><th></th></tr>${cart.map((i,n)=>`<tr><td>${esc(i.name)}</td><td>${i.qty}</td><td>${i.price}</td><td>${fm(i.qty*i.price)}</td><td><button class="d" onclick="cart.splice(${n},1);rc()">×</button></td></tr>`).join('')}<tr><td colspan="3"><b>الإجمالي</b></td><td colspan="2"><b>${fm(t)}</b></td></tr></table></div>`:'<p class="mu">الفاتورة فاضية</p>'}
+function doSale(){
+ const ph=$('#ph').value.trim(),nm=$('#nm').value.trim();
+ if(nph(ph).length<6||!nm)return toast('اكتب موبايل واسم العميل');if(!cart.length)return toast('ضيف أصناف');
+ for(const i of cart){const p=S.products.find(x=>x.id==i.pid);const need=cart.filter(z=>z.pid==i.pid).reduce((s,z)=>s+z.qty,0);if(!p||p.stock<need)return toast('الكمية أكبر من المتاح: '+i.name)}
+ let c=S.customers.find(x=>nph(x.phone)==nph(ph));
+ if(!c){c={id:nid(),name:nm,phone:ph,addr:$('#ad').value.trim(),created:today()};S.customers.push(c)}else{c.name=nm;if($('#ad').value.trim())c.addr=$('#ad').value.trim()}
+ cart.forEach(i=>{S.products.find(x=>x.id==i.pid).stock-=i.qty});
+ S.sales.push({id:nid(),date:$('#dt').value||today(),cid:c.id,items:cart,total:cart.reduce((s,i)=>s+i.qty*i.price,0),method:$('#me').value,channel:$('#ch').value,u:me.u});
+ cart=[];save();toast('تم حفظ الفاتورة');V.sell()}
+
+/* ---- inventory ---- */
+V.inv=()=>{
+ M().innerHTML=`<div class="c"><h3>صنف (إضافة / تعديل)</h3><input type="hidden" id="eid">
+ <div class="row"><label>الاسم<input id="pn"></label><label>سعر الشراء<input id="pc" type="number" style="width:90px"></label><label>سعر البيع<input id="pp" type="number" style="width:90px"></label><label>المخزون<input id="ps" type="number" style="width:90px"></label><label>تكفي كام يوم للعميل (للوحدة)<input id="pd" type="number" value="20" style="width:110px"></label><label>حد التنبيه<input id="pm" type="number" value="5" style="width:80px"></label><button class="p" onclick="saveP()">حفظ</button></div>
+ <div class="mu">مثال: زجاجة 500 مل = 20 يوم. التنبيه بيتحسب من الرقم ده × الكمية.</div></div>
+ <div class="c"><h3>المخزن</h3><div class="tw"><table><tr><th>الصنف</th><th>سعر الشراء</th><th>سعر البيع</th><th>المخزون</th><th>أيام</th><th>قيمة المخزون</th><th>إضافة كمية</th><th></th></tr>
+ ${S.products.map(p=>`<tr><td>${esc(p.name)}</td><td>${p.cost}</td><td>${p.price}</td><td><span class="b ${p.stock<=0?'r':p.stock<=p.min?'y':'g'}">${p.stock}</span></td><td>${p.days}</td><td>${fm(p.stock*p.cost)}</td><td><input id="a${p.id}" type="number" min="1" style="width:70px"> <button onclick="addS(${p.id})">+</button></td><td><button onclick="eP(${p.id})">تعديل</button> ${me.role=='admin'?`<button class="d" onclick="dP(${p.id})">حذف</button>`:''}</td></tr>`).join('')||'<tr><td colspan="8" class="mu">لا توجد أصناف</td></tr>'}</table></div></div>`}
+function saveP(){const n=$('#pn').value.trim();if(!n)return toast('اكتب اسم الصنف');
+ const o={name:n,cost:+$('#pc').value||0,price:+$('#pp').value||0,stock:+$('#ps').value||0,days:+$('#pd').value||20,min:+$('#pm').value||0};
+ const e=$('#eid').value;if(e)Object.assign(S.products.find(p=>p.id==e),o);else S.products.push({id:nid(),...o});save();V.inv()}
+function eP(id){const p=S.products.find(x=>x.id==id);$('#eid').value=id;$('#pn').value=p.name;$('#pc').value=p.cost;$('#pp').value=p.price;$('#ps').value=p.stock;$('#pd').value=p.days;$('#pm').value=p.min;scrollTo(0,0)}
+function addS(id){const q=+$('#a'+id).value;if(q>0){S.products.find(p=>p.id==id).stock+=q;save();V.inv()}}
+function dP(id){if(confirm('حذف الصنف؟')){S.products=S.products.filter(p=>p.id!=id);save();V.inv()}}
+
+/* ---- customers ---- */
+V.cust=()=>{
+ M().innerHTML=`<div class="c"><h3>إضافة عميل يدوي</h3><div class="row"><label>الاسم<input id="cn"></label><label>الموبايل<input id="cp" inputmode="tel"></label><label>العنوان<input id="ca"></label><button class="p" onclick="addC()">إضافة</button></div><div class="mu">العملاء بيتضافوا تلقائي مع أي فاتورة بيع.</div></div>
+ <div class="c"><h3>قاعدة العملاء (${S.customers.length})</h3><div class="row"><input id="q" placeholder="بحث بالاسم أو الموبايل" oninput="ct()"></div><div class="tw" id="ct"></div></div>`;ct()}
+function ct(){const q=($('#q')?.value||'').trim().toLowerCase(),t=today();
+ const rows=S.customers.filter(c=>!q||c.name.toLowerCase().includes(q)||c.phone.includes(q)).map(c=>({c,i:custInfo(c)})).sort((a,b)=>(b.i.last||'')<(a.i.last||'')?-1:1);
+ $('#ct').innerHTML=`<table><tr><th>الاسم</th><th>الموبايل</th><th>آخر شراء</th><th>تخلص تقريباً</th><th>فواتير</th><th>إجمالي</th><th></th></tr>${rows.map(({c,i})=>`<tr><td>${esc(c.name)}</td><td>${esc(c.phone)}</td><td>${i.last||'-'}${i.last?` <span class="mu">(من ${diff(t,i.last)} يوم)</span>`:''}</td><td>${i.end||'-'}</td><td>${i.n}</td><td>${fm(i.total)}</td><td>${me.role=='admin'?`<button class="d" onclick="dC(${c.id})">حذف</button>`:''}</td></tr>`).join('')}</table>`}
+function addC(){const n=$('#cn').value.trim(),p=$('#cp').value.trim();if(!n||nph(p).length<6)return toast('اكتب الاسم والموبايل');
+ if(S.customers.some(c=>nph(c.phone)==nph(p)))return toast('العميل موجود بالفعل');S.customers.push({id:nid(),name:n,phone:p,addr:$('#ca').value.trim(),created:today()});save();V.cust()}
+function dC(id){if(confirm('حذف العميل؟ فواتيره هتفضل في التقارير.')){S.customers=S.customers.filter(c=>c.id!=id);save();V.cust()}}
+
+/* ---- reports ---- */
+V.rep=()=>{
+ const t=today(),from={today:t,week:addDays(t,-6),month:t.slice(0,8)+'01',all:''}[rp];
+ const ss=S.sales.filter(s=>s.date>=from);
+ let rev=0,prof=0,units=0;ss.forEach(s=>s.items.forEach(i=>{rev+=i.qty*i.price;prof+=i.qty*(i.price-i.cost);units+=i.qty}));
+ const grp=(kf,vf)=>{const m={};ss.forEach(s=>kf(s).forEach(k=>{m[k[0]]=m[k[0]]||{n:0,v:0};m[k[0]].n+=k[1];m[k[0]].v+=k[2]}));return Object.entries(m).sort((a,b)=>b[1].v-a[1].v)};
+ const tb=(h,e)=>{const mx=Math.max(1,...e.map(x=>x[1].v));return`<div class="c"><h3>${h}</h3><div class="tw"><table>${e.map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v.n}</td><td>${fm(v.v)}</td><td style="width:35%"><div class="bar" style="width:${v.v/mx*100}%"></div></td></tr>`).join('')||'<tr><td class="mu">لا بيانات</td></tr>'}</table></div></div>`};
+ const cn=id=>(S.customers.find(c=>c.id==id)||{name:'(محذوف)'}).name;
+ M().innerHTML=`<div class="row"><label>الفترة<select onchange="rp=this.value;V.rep()">${[['today','النهاردة'],['week','آخر 7 أيام'],['month','الشهر ده'],['all','الكل']].map(o=>`<option value="${o[0]}" ${o[0]==rp?'selected':''}>${o[1]}</option>`).join('')}</select></label></div>
+ <div class="k"><div><b>${fm(rev)}</b><span>إجمالي المبيعات</span></div><div><b>${fm(prof)}</b><span>الربح</span></div><div><b>${ss.length}</b><span>عدد الفواتير</span></div><div><b>${units}</b><span>وحدات مباعة</span></div><div><b>${ss.length?fm(rev/ss.length):0}</b><span>متوسط الفاتورة</span></div></div>
+ ${tb('حسب الصنف (كمية / مبيعات)',grp(s=>s.items.map(i=>[i.name,i.qty,i.qty*i.price])))}
+ ${tb('حسب طريقة الدفع',grp(s=>[[s.method,1,s.total]]))}
+ ${tb('حسب قناة البيع',grp(s=>[[s.channel,1,s.total]]))}
+ ${tb('حسب المستخدم',grp(s=>[[s.u,1,s.total]]))}
+ ${tb('أفضل العملاء',grp(s=>[[cn(s.cid),1,s.total]]).slice(0,10))}
+ <div class="c"><h3>آخر الفواتير</h3><div class="tw"><table><tr><th>التاريخ</th><th>العميل</th><th>الأصناف</th><th>الإجمالي</th><th>الدفع</th><th>القناة</th><th>بواسطة</th></tr>${ss.slice().sort((a,b)=>b.id-a.id).slice(0,50).map(s=>`<tr><td>${s.date}</td><td>${esc(cn(s.cid))}</td><td>${s.items.map(i=>esc(i.name)+'×'+i.qty).join('، ')}</td><td>${fm(s.total)}</td><td>${esc(s.method)}</td><td>${esc(s.channel)}</td><td>${esc(s.u)}</td></tr>`).join('')}</table></div></div>`}
+
+/* ---- users (admin) ---- */
+V.users=()=>{
+ M().innerHTML=`<div class="c"><h3>إنشاء مستخدم</h3><div class="row"><label>اسم المستخدم<input id="nu"></label><label>كلمة المرور<input id="np" type="password"></label>
+ ${Object.entries(P).map(([k,v])=>`<label style="flex-direction:row;align-items:center;gap:4px"><input type="checkbox" id="n_${k}" checked>${v}</label>`).join('')}<button class="p" onclick="addU()">إنشاء</button></div></div>
+ <div class="c"><h3>المستخدمين</h3><div class="tw"><table><tr><th>المستخدم</th><th>الصلاحيات</th><th>كلمة مرور جديدة</th><th></th></tr>
+ ${S.users.map((u,n)=>`<tr><td>${esc(u.u)} ${u.role=='admin'?'<span class="b g">أدمن</span>':''}</td><td>${u.role=='admin'?'كل الصلاحيات':Object.entries(P).map(([k,v])=>`<label style="display:inline-flex;flex-direction:row;gap:3px;margin-left:8px"><input type="checkbox" ${u.perms[k]?'checked':''} onchange="S.users[${n}].perms.${k}=this.checked;save()">${v}</label>`).join('')}</td><td><input id="pw${n}" type="password" style="width:110px"> <button onclick="setPw(${n})">تغيير</button></td><td>${u.role!='admin'?`<button class="d" onclick="dU(${n})">حذف</button>`:''}</td></tr>`).join('')}</table></div></div>
+ <div class="c"><h3>نسخة احتياطية</h3><p class="mu">البيانات محفوظة في متصفح الجهاز ده فقط. خد نسخة احتياطية بشكل دوري.</p><div class="row"><button onclick="bk()">تحميل نسخة</button><label>استرجاع من ملف<input type="file" accept=".json" onchange="rs(this.files[0])"></label></div></div>`}
+async function addU(){const u=$('#nu').value.trim(),p=$('#np').value;if(!u||p.length<4)return toast('اسم وكلمة مرور (4 أحرف على الأقل)');
+ if(S.users.some(x=>x.u===u))return toast('الاسم مستخدم');const perms={};Object.keys(P).forEach(k=>perms[k]=$('#n_'+k).checked);
+ S.users.push({u,h:await H(p),role:'user',perms});save();V.users()}
+async function setPw(n){const p=$('#pw'+n).value;if(p.length<4)return toast('4 أحرف على الأقل');S.users[n].h=await H(p);save();toast('تم تغيير كلمة المرور')}
+function dU(n){if(confirm('حذف المستخدم؟')){S.users.splice(n,1);save();V.users()}}
+async function bk(){try{const d=await claude.use('downloads');if(!d)return toast('التحميل غير متاح هنا');await d.save({filename:'backup-'+today()+'.json',data:JSON.stringify(S)})}catch(e){}}
+function rs(f){if(!f)return;const r=new FileReader();r.onload=()=>{try{const d=JSON.parse(r.result);if(!d.users||!d.sales)throw 0;if(confirm('هيستبدل كل البيانات الحالية. متأكد؟')){S=d;save();me=null;boot()}}catch(e){toast('ملف غير صالح')}};r.readAsText(f)}
+/* ---- language (ar / en) ---- */
+let L='ar';try{L=localStorage.getItem('erp_lang')||'ar'}catch(e){}
+const AR=/[\u0600-\u06FF]/;
+const EX={'إنشاء الأدمن':'Create admin','اسم المستخدم':'Username','كلمة المرور':'Password','دخول':'Login','إدارة المخزن والمبيعات':'Inventory & Sales','خروج':'Logout','التنبيهات':'Alerts','بيع':'Sell','المخزن':'Inventory','العملاء':'Customers','التقارير':'Reports','المستخدمين':'Users','لا توجد صلاحيات لهذا الحساب. كلم الأدمن.':'This account has no permissions. Contact the admin.','نبهني قبل خلاص الكمية بـ (أيام)':'Alert me before running out (days)','مفيش حد محتاج اتصال دلوقتي 👌':'No calls needed right now 👌','بتخلص النهاردة':'Runs out today','واتساب':'WhatsApp','اتصال':'Call','تم الاتصال':'Called','أصناف قاربت تخلص من المخزن':'Items running low','فاتورة بيع':'New sale','موبايل العميل':'Customer phone','اسم العميل':'Customer name','العنوان (اختياري)':'Address (optional)','المنتج':'Product','الكمية':'Qty','السعر':'Price','إضافة للفاتورة':'Add to invoice','طريقة الدفع':'Payment method','قناة البيع':'Sales channel','التاريخ':'Date','حفظ الفاتورة':'Save invoice','نقدي':'Cash','فودافون كاش':'Vodafone Cash','إنستاباي':'InstaPay','آجل':'Credit','المحل':'Store','توصيل':'Delivery','أونلاين':'Online','مندوب':'Sales rep','ضيف أصناف في المخزن الأول.':'Add products in Inventory first.','الفاتورة فاضية':'Invoice is empty','الصنف':'Item','كمية':'Qty','سعر':'Price','إجمالي':'Total','الإجمالي':'Total','عميل جديد — هيتضاف تلقائي':'New customer — will be added automatically','صنف (إضافة / تعديل)':'Product (add / edit)','الاسم':'Name','سعر الشراء':'Cost price','سعر البيع':'Selling price','المخزون':'Stock','تكفي كام يوم للعميل (للوحدة)':'Days one unit lasts','حد التنبيه':'Low-stock alert at','حفظ':'Save','مثال: زجاجة 500 مل = 20 يوم. التنبيه بيتحسب من الرقم ده × الكمية.':'Example: a 500 ml bottle = 20 days. Alerts use this number × quantity.','أيام':'Days','قيمة المخزون':'Stock value','إضافة كمية':'Add stock','تعديل':'Edit','حذف':'Delete','لا توجد أصناف':'No products','إضافة عميل يدوي':'Add customer manually','الموبايل':'Phone','العنوان':'Address','إضافة':'Add','العملاء بيتضافوا تلقائي مع أي فاتورة بيع.':'Customers are added automatically with every sale.','بحث بالاسم أو الموبايل':'Search by name or phone','آخر شراء':'Last purchase','تخلص تقريباً':'Est. run-out','فواتير':'Invoices','الفترة':'Period','النهاردة':'Today','آخر 7 أيام':'Last 7 days','الشهر ده':'This month','الكل':'All','إجمالي المبيعات':'Total sales','الربح':'Profit','عدد الفواتير':'Invoices','وحدات مباعة':'Units sold','متوسط الفاتورة':'Avg. invoice','حسب الصنف (كمية / مبيعات)':'By product (qty / sales)','حسب طريقة الدفع':'By payment method','حسب قناة البيع':'By sales channel','حسب المستخدم':'By user','أفضل العملاء':'Top customers','لا بيانات':'No data','(محذوف)':'(deleted)','آخر الفواتير':'Recent invoices','بواسطة':'By','الدفع':'Payment','القناة':'Channel','العميل':'Customer','الأصناف':'Items','إنشاء مستخدم':'Create user','البيع':'Sales','إنشاء':'Create','الصلاحيات':'Permissions','كلمة مرور جديدة':'New password','تغيير':'Change','نسخة احتياطية':'Backup','البيانات محفوظة في متصفح الجهاز ده فقط. خد نسخة احتياطية بشكل دوري.':'Data is stored in this device\'s browser only. Back up regularly.','تحميل نسخة':'Download backup','استرجاع من ملف':'Restore from file','أدمن':'Admin','كل الصلاحيات':'All permissions','تعذر الحفظ على المتصفح':'Could not save in the browser','اكتب اسم وكلمة مرور (4 أحرف على الأقل)':'Enter a username and password (min 4 chars)','اسم وكلمة مرور (4 أحرف على الأقل)':'Username and password (min 4 chars)','بيانات غير صحيحة':'Incorrect credentials','اكتب اسم الصنف':'Enter the product name','اكتب موبايل واسم العميل':'Enter customer phone and name','ضيف أصناف':'Add items','تم حفظ الفاتورة':'Invoice saved','اكتب الاسم والموبايل':'Enter name and phone','العميل موجود بالفعل':'Customer already exists','الاسم مستخدم':'Username already taken','4 أحرف على الأقل':'Min 4 characters','تم تغيير كلمة المرور':'Password changed','التحميل غير متاح هنا':'Download unavailable here','ملف غير صالح':'Invalid file','حذف الصنف؟':'Delete this product?','حذف العميل؟ فواتيره هتفضل في التقارير.':'Delete customer? Their invoices stay in reports.','حذف المستخدم؟':'Delete this user?','هيستبدل كل البيانات الحالية. متأكد؟':'This replaces all current data. Sure?'};
+const RX=[[/خلصت من (\d+) يوم/g,'Ran out $1 days ago'],[/باقي (\d+) يوم/g,'$1 days left'],[/\(من (\d+) يوم\)/g,'($1 days ago)'],[/^المتبقي (\d+)/,'Left: $1'],[/· أدمن/,'· Admin'],[/· مستخدم/,'· User'],[/قاعدة العملاء \((\d+)\)/,'Customer database ($1)'],[/عملاء لازم تكلمهم \((\d+)\)/,'Customers to call ($1)']];
+const PH=[['خيرات الشمال','Khayrat El-Shamal'],['إعداد حساب الأدمن','Admin account setup'],['تسجيل الدخول','Sign in'],['آخر شراء:','Last purchase:'],['تخلص تقريباً:','Est. run-out:'],['عدد الفواتير:','Invoices:'],['عميل مسجل','Existing customer'],['الكمية أكبر من المتاح:','Quantity exceeds stock:'],['متاح','in stock']].sort((a,b)=>b[0].length-a[0].length);
+function trs(s){if(L!='en'||!AR.test(s))return s;const t=s.trim();if(EX[t])return s.replace(t,EX[t]);RX.forEach(([r,v])=>{s=s.replace(r,v)});PH.forEach(([a,b])=>{if(s.includes(a))s=s.split(a).join(b)});return s}
+const _cf=window.confirm.bind(window);window.confirm=m=>_cf(trs(m));
+const obs=new MutationObserver(()=>applyLang());
+function applyLang(){const h=document.documentElement;h.lang=L;h.dir=L=='en'?'ltr':'rtl';document.title=L=='en'?'Khayrat El-Shamal':'خيرات الشمال';
+ if(L!='en')return;obs.disconnect();
+ const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT),ns=[];while(w.nextNode())ns.push(w.currentNode);
+ ns.forEach(n=>{const p=n.parentNode;if(!p||/^(SCRIPT|STYLE|TEXTAREA)$/.test(p.nodeName)||!AR.test(n.nodeValue))return;
+  if(p.nodeName=='OPTION'){if(p.parentNode&&p.parentNode.id=='pl')return;if(!p.hasAttribute('value'))p.setAttribute('value',n.nodeValue.trim())}
+  n.nodeValue=trs(n.nodeValue)});
+ document.querySelectorAll('[placeholder]').forEach(e=>{e.placeholder=trs(e.placeholder)});
+ obs.observe(document.body,{childList:true,subtree:true,characterData:true})}
+function setLang(){L=L=='en'?'ar':'en';try{localStorage.setItem('erp_lang',L)}catch(e){}applyLang();S.users.length?(me?shell():login()):setup();applyLang()}
+applyLang();obs.observe(document.body,{childList:true,subtree:true,characterData:true});
+boot();
+</script>
+</body>
+</html>
